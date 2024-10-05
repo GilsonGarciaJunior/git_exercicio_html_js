@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header h2,
+header h3,
+header p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+header h1 {
+    font-family: 'Bungee', sans-serif;
+    background-color: blue;
+    padding: 16px;
+    font-weight: normal;
+}
+
+header h2 {
+    padding: 16px;
+}
+
+form {
+    margin-left: 16px;
+}
+
+form input,
+form button {
+    display: block;
+    padding: 4px;
+    width: 200px;
+}
+
+header p {
+    display: none;
+}
+
+.valido,
+.nãoValido1,
+.nãoValido2 {
+    background-color: green;
+    color: #fff;
+    padding: 8px;
+    margin: 16px;
+    width: 400px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: uppercase;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digite Nos Campos Solicitados</title>
+    <link rel="stylesheet" href="./main.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>
+            Digite Nos Campos Solicitados
+        </h1>
+        <h2>
+            No Campo A digite um número menor que o digitado no Campo B
+        </h2>
+        <form id="números">
+            <h3>Campo A: </h3>
+            <input id="campoa" required type="number" />
+            <br/>
+            <h3>Campo B: </h3>
+            <input id="campob" required type="number" />
+            <br/>
+            <button id="botão" type="submit">Enviar</button>    
+        </form>
+        <p class="valido">
+            o número digitado no campo B é maior que o número digitado no campo A,portanto o formulario é valido!
+        </p>
+        <p class="nãoValido1">
+            o número digitado no campo B é igual que o número digitado no campo A,portanto o formulario não é valido!
+        </p>
+        <p class="nãoValido2">
+            o número digitado no campo B é menor que o número digitado no campo A,portanto o formulario não é valido!
+        </p>
+    </header>
+    <script src="./index.js"></script>
+</body>
+</html>
